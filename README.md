@@ -6,3 +6,4 @@
 # Then i make my "Y_pred" """classifier.predict(X_test)""" 
 # I change my results into columns """np.concatenate((Y_pred.reshape(len(Y_pred),1), Y_test.reshape(len(Y_test),1)),1)"""
 # Next i import "confusion_matrix" and put into it my "Y_test" and "Y_pred", I check the results
+# And get my score """accuracy_score(Y_test, Y_pred)"""
